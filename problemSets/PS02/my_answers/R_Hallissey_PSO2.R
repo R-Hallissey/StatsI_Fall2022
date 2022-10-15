@@ -155,12 +155,10 @@ lmplot (lm1)
 # C. #
 ######
 
-# 95% Confidence Interval for Beta 1
-9.252 - (2.189 * 3.948)
-9.252 + (2.189 * 3.948)
+confint(lm1)
 
-# Lower bound: 0.60
-# Upper bound: 17.89
+# Lower bound: 1.48
+# Upper bound: 17.01
 
 # There is a statistically reliable (p = 0.0197) and positive relationship 
 # between whether the council head is reserved for women and whether drinking 
@@ -168,4 +166,6 @@ lmplot (lm1)
 #
 # At the 95% confidence level, where the council head reserved for women 
 # the number the number drinking water facilities that are repaired or newly 
-# installed increases by as few as 0.6 and as many 17.89.
+# installed increases by as few as 1.48 and as many 17.01
+
+
