@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.11)  18 NOV 2022 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.11)  19 NOV 2022 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,12 +961,12 @@ nput line 115.
 (R_Hallissey_PS3.R
 consecutive:
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-5.
+7.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 15.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 17.
 )
 [1
 
@@ -1001,7 +1001,7 @@ consecutive:
 ) [5 <./presvotecampspendRplot.pdf>] (R_Hallissey_PS3.R
 consecutive:
 )
-<presidentialvoteRplot.pdf, id=79, 460.72125pt x 272.01625pt>
+<presidentialvoteRplot.pdf, id=80, 460.72125pt x 272.01625pt>
 File: presidentialvoteRplot.pdf Graphic file (type pdf)
 <use presidentialvoteRplot.pdf>
 Package pdftex.def Info: presidentialvoteRplot.pdf  used on input line 213.
@@ -1014,7 +1014,7 @@ Overfull \hbox (20.3398pt too wide) in paragraph at lines 213--215
 [6] [7 <./presidentialvoteRplot.pdf>] (R_Hallissey_PS3.R
 consecutive:
 ) [8]
-<ResidRplot.pdf, id=116, 461.725pt x 272.01625pt>
+<ResidRplot.pdf, id=117, 461.725pt x 272.01625pt>
 File: ResidRplot.pdf Graphic file (type pdf)
 <use ResidRplot.pdf>
 Package pdftex.def Info: ResidRplot.pdf  used on input line 258.
@@ -1024,9 +1024,20 @@ Overfull \hbox (21.34355pt too wide) in paragraph at lines 258--259
 [][] 
  []
 
-[9 <./ResidRplot.pdf>] (R_Hallissey_PS3.R
+[9 <./ResidRplot.pdf>] [10]
+<CRplot.pdf, id=136, 461.725pt x 272.01625pt>
+File: CRplot.pdf Graphic file (type pdf)
+<use CRplot.pdf>
+Package pdftex.def Info: CRplot.pdf  used on input line 303.
+(pdftex.def)             Requested size: 461.72388pt x 272.01558pt.
+
+Overfull \hbox (21.34355pt too wide) in paragraph at lines 303--304
+[][] 
+ []
+
+(R_Hallissey_PS3.R
 consecutive:
-) [10] [11] (Hallissey_PS3.aux)
+) [11 <./CRplot.pdf>] (Hallissey_PS3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1034,13 +1045,13 @@ Package rerunfilecheck Info: File `Hallissey_PS3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27113 strings out of 475385
- 482717 string characters out of 2777378
- 1033798 words of memory out of 3000000
- 47926 multiletter control sequences out of 15000+600000
+ 27121 strings out of 475385
+ 482851 string characters out of 2777378
+ 1034798 words of memory out of 3000000
+ 47934 multiletter control sequences out of 15000+600000
  480045 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,89p,3247b,2212s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,11n,89p,3247b,2214s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
@@ -1057,9 +1068,9 @@ User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 .pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on Hallissey_PS3.pdf (11 pages, 910080 bytes).
+Output written on Hallissey_PS3.pdf (11 pages, 1278273 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

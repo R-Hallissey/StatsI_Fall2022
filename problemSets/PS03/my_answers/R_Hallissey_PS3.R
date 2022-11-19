@@ -8,6 +8,8 @@
 # Packages
 install.packages("stargazer")
 library(stargazer)
+install.packages("car")
+library(car)
 
 # Question 1
 # 1.Difflog voteshare regression
@@ -91,6 +93,9 @@ lm(dat$voteshare  ~ dat$difflog + dat$presvote)
 dlpvvs.mm <- lm(dat$voteshare  ~ dat$difflog + dat$presvote)
 summary(dlpvvs.mm)
 stargazer(dlpvvs.mm)
+
+#Added variable plot
+crPlots(dlpvvs.mm)
 
 # 2. Prediction equation: Y = B0 + B1xi + B1xii where Y is predicted value of the OV,
 # B0 is the intercept, B1 is the slope of the regression line, and xi and xii 
