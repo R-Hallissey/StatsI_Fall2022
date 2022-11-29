@@ -6,19 +6,39 @@
 ### Make sure your model works as expected by running summary().
 
 # Load any packages here
+library(tidyverse)
 
 # Load training data
-train <- readRDS("data/train.rds")
+dat <- readRDS("data/train.rds")
 
-# Data transformation
-train <- train %>% 
-  # Add here any code necessary to transform variables
+# Initial Model and its residuals.
+lm.1 <- lm(dat$AdjSalePrice ~ dat$BldgGrade
+           + dat$SqFtTotLiving)
+lm.1.res <- resid(lm.1)
 
-# Model
-mod <- lm(# your model formula here
-          , 
-          data = dat,
-          na.action = na.omit)
+
+# Append residuals to dataset
+c(dat, lm.1.res)
+
+# Code for transforming Zip Code
+zip_group <- dat %>%
+  group_by(ZipCode) %>%
+  summarise(resids = median(lm.1.res),
+            count = n()) %>%
+  arrange(resids) %>%
+  mutate(cumul_count = cumsum(count),
+         ZipGroup = ntile(cumul_count, 5))
+
+# 2nd dataset with Zip Group categorical
+dat2 <- dat %>%
+  left_join(select(zip_group, ZipCode, ZipGroup), by = "ZipCode")
+
+# Final Model with  square foot to living and bldgGrade squared, 
+# and zip group.
+
+mod <- lm(AdjSalePrice ~  I(SqFtTotLiving^2) + SqFtTotLiving 
+          +  I(BldgGrade^2) + BldgGrade + ZipGroup,
+          data = dat2, na.action = na.omit)
 
 summary(mod)
 
