@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.11)  2 DEC 2022 14:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.11)  3 DEC 2022 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,12 +1001,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--234
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--248
+Underfull \hbox (badness 10000) in paragraph at lines 240--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 248--251
 
  []
 
@@ -1015,8 +1015,8 @@ Package rerunfilecheck Info: File `R_Hallissey.PS4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27033 strings out of 475385
- 480372 string characters out of 2777378
+ 27032 strings out of 475385
+ 480358 string characters out of 2777378
  1025138 words of memory out of 3000000
  47897 multiletter control sequences out of 15000+600000
  481343 words of font info for 78 fonts, out of 8000000 for 9000
@@ -1040,9 +1040,9 @@ pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 onts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on R_Hallissey.PS4.pdf (6 pages, 181254 bytes).
+Output written on R_Hallissey.PS4.pdf (6 pages, 181073 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

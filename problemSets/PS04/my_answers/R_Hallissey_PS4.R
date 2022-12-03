@@ -56,16 +56,16 @@ aggregate(prestige ~ pros, data = Prestige, mean)
 # that there is no reletionship between lawn signs in the precinct and
 # Cuccinelli's vote share
 T.stat <- .042 / .016
-df <- 131 - 2
+df <- 131 - 3
 p.val <- 2*pt(q = T.stat, df = df, lower.tail = F)
 
 #2.2
-# P-value is .001 is less than alpha .05 so we can reject the null hypthesis 
+# P-value of .001 is less than alpha .05 so we can reject the null hypthesis 
 # that there is no relationship between lawns signs in the adjacent precinct and
 # Cuccinelli's vote share
 T.stat.deux <- 0.042/  0.013
-df.deux <- 76 - 2
 p.val.deux <- 2*pt(q = T.stat.deux, df = df, lower.tail = F)
+2*pt(abs(T.stat.deux), df = df, lower.tail = F)
 
 #2.3
 # It is the value of y within the equation if the explanatory variables where 
