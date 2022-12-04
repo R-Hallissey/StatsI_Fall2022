@@ -24,7 +24,7 @@ stargazer(lm.1)
 
 # Q1.3
 # Y = b0 + b1 + b2 + b3
-# Prestige = 21.14 + 0.003*income + 37.78*pro + 0.002*income:pro
+# Prestige = 21.14 + 0.003*income + 37.78*pro - 0.002*income:pro
 
 # Q1.4
 # When controlling for the other variables in the model, workers
@@ -40,15 +40,16 @@ stargazer(lm.1)
 # A $1000 increase in salary increases a professionals prestige 
 # points by 1
 21.14 + 37.78
-58.98 + 0.003*1000
-aggregate(prestige ~ pros, data = Prestige, mean)
+58.92 + 0.003*1000
 
 # Q1.7
 # At an income of $6000, a non-professional moving to a professional 
-# occupation would gain 37.84 prestige points
-58.98 + 0.003*6000
-21.14 + 0.003*6000
-76.98 - 39.14
+# occupation would gain 25.78 prestige points
+
+58.92 + 0.003*6000 - 0.002*6000*1
+21.14 + 0.003*6000 - 0.002*6000*0
+64.92 - 39.14
+
 
 # Question 2
 # 2.1
